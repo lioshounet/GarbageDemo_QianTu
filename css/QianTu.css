@@ -1,0 +1,672 @@
+/* Logo 字体 */
+
+@font-face {
+    font-family: "iconfont logo";
+    src: url('../font/font_3qw3bj0up1g/iconfont.ttf');
+}
+
+.iconfont_logo {
+    font-family: "iconfont logo";
+}
+
+/* head_bar******************* */
+
+.head_bar {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(239, 239, 239);
+}
+
+.head_bar .tele {
+    position: absolute;
+    left: 360px;
+    font-size: 15px;
+}
+
+.head_bar .info {
+    position: relative;
+    display: inline-block;
+    left: 1400px;
+    /* right: 360px; */
+}
+
+/* nav*************************** */
+
+.nav {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 120px;
+}
+
+.nav p {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.nav .logo {
+    position: relative;
+    display: inline-block;
+    width: 260px;
+    margin-left: 360px;
+    height: 120px;
+    background-color: rgba(0, 162, 255, 0);
+}
+
+.nav .bu {
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    width: 80px;
+    height: 120px;
+    background-color: rgba(255, 60, 0, 0);
+}
+
+.nav .bu p {
+    position: relative;
+    top: 60px;
+    left: 25px;
+    font-size: 15px;
+}
+
+.nav .search {
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+    width: 370px;
+    height: 120px;
+    background: rgba(0, 89, 255, 0);
+}
+
+.nav .search input {
+    position: relative;
+    top: 60px;
+    left: 40px;
+    border-radius: 20px;
+    padding-left: 30px;
+    width: 300px;
+    height: 34px;
+    border: 2px solid rgb(10, 10, 10);
+}
+
+/* aboutus */
+
+.aboutus {
+    width: 100%;
+    height: 790px;
+    background-color: rgb(244, 244, 244);
+}
+
+/* .aboutus .info {
+    position: relative;
+    left: 360px;
+} */
+
+.aboutus .p {
+    position: relative;
+    top: 70px;
+    left: 550px;
+    font-size: 30px;
+}
+
+.aboutus .our {
+    position: relative;
+    left: 564px;
+    top: 70px;
+    font-size: 15px;
+    color: rgb(100, 177, 212);
+}
+
+.aboutus .three {
+    position: relative;
+    top: 68px;
+    left: 508px;
+    font-size: 20px;
+}
+
+.aboutus .how {
+    position: relative;
+    top: 64px;
+    left: 290px;
+    font-size: 20px;
+}
+
+.aboutus .info div {
+    position: absolute;
+    top: 128px;
+    width: 253px;
+    height: 2px;
+    background-color: rgb(176, 176, 176);
+}
+
+.info .littlebar1 {
+    position: relative;
+    left: 246px;
+}
+
+.info .littlebar2 {
+    position: relative;
+    left: 720px;
+}
+
+.aboutus .teaminfo {
+    position: relative;
+    background-color: rgb(174, 231, 242);
+    height: 112px;
+    width: 380px;
+}
+
+.aboutus .ball {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    /* position: absolute; */
+    background-color: rgb(54, 160, 156);
+}
+
+.aboutus .teaminfobox .bar1 {
+    width: 70px;
+    height: 2px;
+    position: relative;
+    top: -636px;
+    left: 380px;
+    background-color: rgb(237, 207, 177);
+}
+
+.aboutus .teaminfobox .bar2 {
+    width: 70px;
+    height: 2px;
+    position: relative;
+    top: -635px;
+    left: 749px;
+    background-color: rgb(237, 207, 177);
+}
+
+.aboutus .teaminfobox .bar3 {
+    width: 11px;
+    height: 2px;
+    position: relative;
+    top: -489px;
+    left: 809px;
+    background-color: rgb(54, 160, 156);
+}
+
+.aboutus .teaminfobox .bar4 {
+    width: 87px;
+    height: 2px;
+    position: relative;
+    top: -329px;
+    left: 733px;
+    background-color: rgb(54, 160, 156);
+}
+
+.aboutus .teaminfobox .bar5 {
+    width: 87px;
+    height: 2px;
+    position: relative;
+    top: -330px;
+    left: 380px;
+    background-color: rgb(54, 160, 156);
+}
+
+.aboutus .teaminfobox .bar6 {
+    width: 22px;
+    height: 2px;
+    position: relative;
+    top: -495px;
+    left: 380px;
+    background-color: rgb(54, 160, 156);
+}
+
+.aboutus .ring_out {
+    position: relative;
+    width: 326px;
+    height: 326px;
+    left: 439px;
+    top: -659px;
+    border-radius: 50%;
+    background-color: rgb(54, 154, 186);
+}
+
+.aboutus .ring_out div {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    width: 257px;
+    height: 257px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+/**************** service */
+
+.service {
+    width: 100%;
+    height: 790px;
+    background-color: rgb(255, 255, 255);
+}
+
+.service .info div {
+    position: absolute;
+    top: 128px;
+    width: 253px;
+    height: 2px;
+    background-color: rgb(176, 176, 176);
+}
+
+.service .p {
+    position: relative;
+    top: 70px;
+    left: 550px;
+    font-size: 30px;
+}
+
+.service .our {
+    position: relative;
+    left: 564px;
+    top: 70px;
+    font-size: 15px;
+    color: rgb(100, 177, 212);
+}
+
+.service .three {
+    position: relative;
+    top: 68px;
+    left: 508px;
+    font-size: 20px;
+}
+
+.service .how {
+    position: relative;
+    top: 64px;
+    left: 290px;
+    font-size: 20px;
+}
+
+.service .whatwecan {
+    width: 1200px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+.service .whatwecan .coding {
+    position: relative;
+    display: inline-block;
+    width: 240px;
+    height: 310px;
+    top: 90px;
+    margin-left: 48px;
+    left: 0px;
+    background-color: #fff;
+}
+
+.service .whatwecan .whatwecanbox1 {
+    width: 144px;
+    height: 125px;
+    background-color: rgb(30, 144, 204);
+}
+
+.service .whatwecan .whatwecanbox2 {
+    width: 144px;
+    height: 125px;
+    background-color: rgb(30, 144, 204);
+}
+
+.service .whatwecan .whatwecanbox4 {
+    width: 144px;
+    height: 125px;
+    background-color: rgb(30, 144, 204);
+}
+
+.service .whatwecan .whatwecanbox3 {
+    width: 144px;
+    height: 125px;
+    background-color: rgb(30, 144, 204);
+}
+
+.service .whatwecan .whatwecanbox1 .coner1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top: 31px solid rgb(246, 246, 246);
+    border-right: 20px solid rgb(30, 143, 204);
+    border-left: 20px solid rgb(246, 246, 246);
+    border-bottom: 31px solid rgb(30, 143, 204);
+}
+
+.service .whatwecan .whatwecanbox1 .coner2 {
+    position: absolute;
+    top: 63px;
+    left: 0px;
+    border-top: 31px solid rgb(30, 143, 204);
+    border-right: 20px solid rgb(30, 143, 204);
+    border-left: 20px solid rgb(246, 246, 246);
+    border-bottom: 31px solid rgb(246, 246, 246);
+}
+
+.service .whatwecan .whatwecanbox1 .coner3 {
+    position: absolute;
+    top: 0px;
+    left: 104px;
+    border-top: 31px solid rgb(246, 246, 246);
+    border-right: 20px solid rgb(246, 246, 246);
+    border-left: 20px solid rgb(30, 143, 204);
+    border-bottom: 31px solid rgb(30, 143, 204);
+}
+
+.service .whatwecan .whatwecanbox1 .coner4 {
+    position: absolute;
+    top: 63px;
+    left: 104px;
+    border-top: 31px solid rgb(30, 143, 204);
+    border-right: 20px solid rgb(246, 246, 246);
+    border-left: 20px solid rgb(30, 143, 204);
+    border-bottom: 31px solid rgb(246, 246, 246);
+}
+
+.service .whatwecan .whatwecanbox2 .coner1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top: 31px solid rgb(246, 246, 246);
+    border-right: 20px solid rgb(30, 143, 204);
+    border-left: 20px solid rgb(246, 246, 246);
+    border-bottom: 31px solid rgb(30, 143, 204);
+}
+
+.service .whatwecan .whatwecanbox2 .coner2 {
+    position: absolute;
+    top: 63px;
+    left: 0px;
+    border-top: 31px solid rgb(30, 143, 204);
+    border-right: 20px solid rgb(30, 143, 204);
+    border-left: 20px solid rgb(246, 246, 246);
+    border-bottom: 31px solid rgb(246, 246, 246);
+}
+
+.service .whatwecan .whatwecanbox2 .coner3 {
+    position: absolute;
+    top: 0px;
+    left: 104px;
+    border-top: 31px solid rgb(246, 246, 246);
+    border-right: 20px solid rgb(246, 246, 246);
+    border-left: 20px solid rgb(30, 143, 204);
+    border-bottom: 31px solid rgb(30, 143, 204);
+}
+
+.service .whatwecan .whatwecanbox2 .coner4 {
+    position: absolute;
+    top: 63px;
+    left: 104px;
+    border-top: 31px solid rgb(30, 143, 204);
+    border-right: 20px solid rgb(246, 246, 246);
+    border-left: 20px solid rgb(30, 143, 204);
+    border-bottom: 31px solid rgb(246, 246, 246);
+}
+
+.service .whatwecan .whatwecanbox3 .coner1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top: 31px solid rgb(246, 246, 246);
+    border-right: 20px solid rgb(30, 143, 204);
+    border-left: 20px solid rgb(246, 246, 246);
+    border-bottom: 31px solid rgb(30, 143, 204);
+}
+
+.service .whatwecan .whatwecanbox3 .coner2 {
+    position: absolute;
+    top: 63px;
+    left: 0px;
+    border-top: 31px solid rgb(30, 143, 204);
+    border-right: 20px solid rgb(30, 143, 204);
+    border-left: 20px solid rgb(246, 246, 246);
+    border-bottom: 31px solid rgb(246, 246, 246);
+}
+
+.service .whatwecan .whatwecanbox3 .coner3 {
+    position: absolute;
+    top: 0px;
+    left: 104px;
+    border-top: 31px solid rgb(246, 246, 246);
+    border-right: 20px solid rgb(246, 246, 246);
+    border-left: 20px solid rgb(30, 143, 204);
+    border-bottom: 31px solid rgb(30, 143, 204);
+}
+
+.service .whatwecan .whatwecanbox3 .coner4 {
+    position: absolute;
+    top: 63px;
+    left: 104px;
+    border-top: 31px solid rgb(30, 143, 204);
+    border-right: 20px solid rgb(246, 246, 246);
+    border-left: 20px solid rgb(30, 143, 204);
+    border-bottom: 31px solid rgb(246, 246, 246);
+}
+
+.service .whatwecan .whatwecanbox4 .coner1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top: 31px solid rgb(246, 246, 246);
+    border-right: 20px solid rgb(30, 143, 204);
+    border-left: 20px solid rgb(246, 246, 246);
+    border-bottom: 31px solid rgb(30, 143, 204);
+}
+
+.service .whatwecan .whatwecanbox4 .coner2 {
+    position: absolute;
+    top: 63px;
+    left: 0px;
+    border-top: 31px solid rgb(30, 143, 204);
+    border-right: 20px solid rgb(30, 143, 204);
+    border-left: 20px solid rgb(246, 246, 246);
+    border-bottom: 31px solid rgb(246, 246, 246);
+}
+
+.service .whatwecan .whatwecanbox4 .coner3 {
+    position: absolute;
+    top: 0px;
+    left: 104px;
+    border-top: 31px solid rgb(246, 246, 246);
+    border-right: 20px solid rgb(246, 246, 246);
+    border-left: 20px solid rgb(30, 143, 204);
+    border-bottom: 31px solid rgb(30, 143, 204);
+}
+
+.service .whatwecan .whatwecanbox4 .coner4 {
+    position: absolute;
+    top: 63px;
+    left: 104px;
+    border-top: 31px solid rgb(30, 143, 204);
+    border-right: 20px solid rgb(246, 246, 246);
+    border-left: 20px solid rgb(30, 143, 204);
+    border-bottom: 31px solid rgb(246, 246, 246);
+}
+
+.service .whatwecan .p {
+    position: relative;
+    top: 145px;
+    left: 0px;
+}
+
+/* our_pr******************************* */
+
+.our_pr {
+    width: 100%;
+    height: 564px;
+    background-image: url(../pic/图片11.png)
+}
+
+.our_pr .info {
+    position: relative;
+    left: 360px;
+    color: rgb(255, 255, 255);
+}
+
+.our_pr .p {
+    position: relative;
+    top: 70px;
+    left: 506px;
+    font-size: 30px;
+}
+
+.our_pr .info .p_box div {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.our_pr .our {
+    position: relative;
+    left: 564px;
+    top: 70px;
+    font-size: 15px;
+    color: rgb(100, 177, 212);
+}
+
+.our_pr .three {
+    position: relative;
+    top: 68px;
+    left: 508px;
+    font-size: 20px;
+}
+
+.our_pr .how {
+    position: relative;
+    top: 80px;
+    left: 267px;
+    font-size: 20px;
+}
+
+.our_pr .info .littlebar1 {
+    /* position: absolute; */
+    top: 119px;
+    width: 253px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 482px;
+}
+
+.our_pr .info .p_box {
+    position: relative;
+    left: 545px;
+    top: 163px;
+}
+
+.our_pr .info .ball {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    /* position: absolute; */
+    background-color: rgb(242, 198, 1);
+}
+
+.our_pr .info div p {
+    display: inline-block;
+    font-size: 25px;
+}
+
+/* our_ad******************************* */
+
+.our_ad {
+    width: 100%;
+    height: 790px;
+    background-color: rgb(244, 244, 244);
+}
+
+.our_ad .info {
+    position: relative;
+    left: 360px;
+}
+
+.our_ad .info .littlebar {
+    position: absolute;
+    top: 128px;
+    width: 253px;
+    height: 2px;
+    background-color: rgb(176, 176, 176);
+}
+
+.our_ad .p {
+    position: relative;
+    top: 70px;
+    left: 540px;
+    font-size: 30px;
+}
+
+.our_ad .our {
+    position: relative;
+    left: 564px;
+    top: 70px;
+    font-size: 15px;
+    color: rgb(100, 177, 212);
+}
+
+.our_ad .three {
+    position: relative;
+    top: 68px;
+    left: 508px;
+    font-size: 20px;
+}
+
+.our_ad .how {
+    position: relative;
+    top: 64px;
+    left: 290px;
+    font-size: 20px;
+}
+
+.our_ad .info div .ball {
+    display: inline-block;
+    position: relative;
+    top: 120px;
+    left: 68px;
+    margin-left: 36px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: rgb(90, 58, 58);
+}
+
+/* link */
+
+.link {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(19, 162, 230);
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 318px;
+    background-color: rgb(61, 61, 61);
+}
+
+.footer .logo {
+    position: absolute;
+    width: 200px;
+    height: 318px;
+    left: 560px;
+    top: 0px;
+    background-color: rgb(110, 39, 39);
+}
+
+.footer .info {
+    position: relative;
+    top: 37px;
+    left: 848px;
+}
+
+.footer .info div p {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+}
